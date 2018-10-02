@@ -46,4 +46,4 @@ function kingcwt(str) {
       var reg = /^(\d{6})\d+(\d{4})$/;
       str.replace(reg,'$1****$2');
 ```
->写于2018年10月1号，晚/
+>写于2018年10月2号，晚/
