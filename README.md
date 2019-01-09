@@ -107,7 +107,7 @@ let arr = [1, 2, 3, 4, 5]
 > 此方法是在数组的后面添加新加元素，此方法改变了数组的长度：`改变原数组`
 
 - Array.pop()
->此方法在数组后面删除最后一个元素，并返回数组，此方法改变了数组的长度：`返回改变后数组`
+>此方法在数组后面删除最后一个元素，并返回数组，此方法改变了数组的长度：`改变原数组 返回值是删除的这一项`
 ```
 let arr = [1, 2, 3, 4, 5]
 let a=arr.pop()
@@ -115,3 +115,72 @@ console.log(arr) //[1, 2, 3, 4]
 console.log(arr.length) //4
 console.log(arr, a);// [1,2,3,4]    //5
 ```
+- Array.shift()
+> 此方法删除数组第一项，并返回数组，此方法改变了数组的长度，`改变原数组 返回值是删除的的这一项`
+```
+let arr = [1, 2, 3, 4, 5]
+// console.log(arr.shift());
+// console.log(arr.length) //4
+console.log(arr.shift()); //1
+console.log(arr);  // [2,3,4,5]
+```
+- Array.unshift()
+>此方法是将一个或多个元素添加到数组的开头，并返回新数组的长度;`改变原数组 返回值是数组的长度`
+```
+let arr = [1, 2, 3, 4, 5]
+
+arr.unshift(0);
+let a=arr.unshift(9981);
+console.log(arr.length)   //7
+console.log(a);  //   7
+console.log(arr) // [ 9981, 0, 1, 2, 3, 4, 5 ]
+```
+- Array.isArray()
+> 判断一个对象是不是数组，返回的是布尔值
+```
+let arr1 = [1, 2, 3];
+let arr='';
+console.log(Array.isArray(arr1));
+console.log(Array.isArray(arr));
+```
+- Array.concat()
+> 此方法是一个可以将多个数组拼接成一个数组;
+```
+let arr1 = [1, 2, 3]
+      arr2 = [4, 5]
+  let arr = arr1.concat(arr2)
+  console.log(arr)//[1, 2, 3, 4, 5]
+```
+- Array.toString() 
+>  此方法将数组转化为字符串： `不改变原数组`
+```
+let arr = [1, 2, 3, 4, 5];
+let a={x:1};
+let x=a.x.toString();
+console.log(typeof(x)); //string
+console.log(a.x.toString()); //1
+let str = arr.toString();
+console.log(str);// 1,2,3,4,5
+```
+- Array.join()
+>  此方法也是将数组转化为字符串; `不改变原数组`
+```
+let arr = [1, 2, 3, 4, 5];
+let str1 = arr.join( );
+let str2 = arr.join(',');
+let str3 = arr.join('##');
+console.log(str1) ;// 12345
+console.log(str2) ;// 1,2,3,4,5
+console.log(str3) ; // 1##2##3##4##5
+```
+- Array.splice(开始位置， 删除的个数，元素
+>　万能方法，可以实现增删改：
+```
+let arr = [1, 2, 3, 4, 5];
+     let arr1 = arr.splice(2, 0 'haha')
+     let arr2 = arr.splice(2, 3)
+     let arr1 = arr.splice(2, 1 'haha')
+     console.log(arr1) //[1, 2, 'haha', 3, 4, 5]新增一个元素
+     console.log(arr2) //[1, 2] 删除三个元素
+     console.log(arr3) //[1, 2, 'haha', 4, 5] 替换一个元素
+``` 
