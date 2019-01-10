@@ -184,3 +184,96 @@ let arr = [1, 2, 3, 4, 5];
      console.log(arr2) //[1, 2] 删除三个元素
      console.log(arr3) //[1, 2, 'haha', 4, 5] 替换一个元素
 ``` 
+### 操作字符串
+- charCodeAt()
+>  返回有效的Unicode编码  如果不存在则是NaN;
+```
+var str = "ABC";
+str.charCodeAt(0);
+结果：65
+```
+- String.fromCharCode();
+> 通过Unicode编码对应的数字 返回对应的值
+```
+String.fromCharCode(65,66,112);
+结果：ABp
+String.fromCharCode(5,4,1,88,13,99,65,66);
+结果："XcAB"
+```
+- charAt()
+> 通过索引返回指定的字符
+```
+var str = "ABC";
+str.charAt(1);
+结果：B
+```
+- slice()
+> 截取 - `包前不包后`
+```
+var str = "ABCDEF";
+str.slice(2,4);
+结果：CD
+``` 
+- substring()
+> 给slice差不多 但是此方法是按照较小值作为起始值，`包前不包后`
+```
+str.substring(2,4); // 或 str.substring(4,2);
+结果：CD
+```
+- substr()
+> 从指定索引开始，截取N个字符  (第二个参数表示截取的字符个数)
+```
+var str = "ABCDEF";
+str.substr(2,4);
+结果：CDEF
+```
+-indexOf()
+> 第一个参数是要查询的字符，第二个参数是从索引几开始  若存在返回此字符起始的索引，反则返回-1  `从左向右`
+```
+var str = "ABCDECDF";
+str.indexOf("CD"，1); // 由1位置从左向右查找 123...
+结果：2
+``` 
+- lastIndexOf(); 
+> 第一个参数是要查询的字符，第二个参数是从索引几开始  若存在返回此字符起始的索引，反则返回-1  `从右向左`
+```
+var str = "ABCDECDF";
+str.lastIndexOf("CD",6); // 由6位置从右向左查找 ...456
+结果：5
+```
+- search()
+> 输入对应的字符 ，返回对应的索引起始值 可以写如正则表达式
+```
+var str = "ABCDECDF";
+str.search("CD"); // 或 str.search(/CD/i);
+结果：2
+```
+- concat()
+> 数组，字符串，都使用  合并字符串 
+```
+var str = "ABCDEF";
+str.concat("ABCDEF","ABC");
+结果：ABCDEFABCDEFABC
+```
+- split()
+- > 按指定字符分割，第第二个参数表示要分割的个数
+```
+var str = "AA BB CC DD EE FF";
+alert(str.split(" "，3));
+结果：
+AA,BB,CC
+```
+- toLowerCase()
+>  转化为小写 
+```
+var str = "ABCabc";
+str.toLowerCase();
+结果：abcabc
+```
+- toUpperCase()
+> 转化为大写
+```
+var str = "ABCabc";
+str.toUpperCase();
+结果：ABCABC
+```
