@@ -9,3 +9,4 @@
 
    #### 2、[数据类型](./doc/datatype.md)
 
+   #### 3、[数值](./doc/numericalvalue.md)
