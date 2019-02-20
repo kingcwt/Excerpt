@@ -609,7 +609,4 @@ Axel Rauschmayer, A quick overview of JavaScript
 
 ##### 本文属于网摘 如有侵权请联系作者删除。
 =======
-留言
-comments powered by Disqus
-版权声明 | last modified on 2013-12-08
->>>>>>> ed9b61f6c366f6cb8f35457efb5207cef4b31d9f
+
