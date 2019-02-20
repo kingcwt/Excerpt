@@ -34,7 +34,8 @@ Netscape 公司的这种浏览器脚本语言，最初名字叫做 Mocha，1995�
 
 1996年3月，Navigator 2.0 浏览器正式内置了 JavaScript 脚本语言。
 
-JavaScript与ECMAScript的关系
+### JavaScript与ECMAScript的关系
+
 1996年8月，微软模仿JavaScript开发了一种相近的语言，取名为JScript（JavaScript是Netscape的注册商标，微软不能用），首先内置于IE 3.0。Netscape公司面临丧失浏览器脚本语言的主导权的局面。
 
 1996年11月，Netscape公司决定将JavaScript提交给国际标准化组织ECMA（European Computer Manufacturers Association），希望JavaScript能够成为国际标准，以此抵抗微软。ECMA的39号技术委员会（Technical Committee 39）负责制定和审核这个标准，成员由业内的大公司派出的工程师组成，目前共25个人。该委员会定期开会，所有的邮件讨论和会议记录，都是公开的。
@@ -56,7 +57,7 @@ JavaScript的基本语法和对象体系，是模仿Java而设计的。但是，
 
 总之，JavaScript的原始设计目标是一种小型的、简单的动态语言，与Java有足够的相似性，使得使用者（尤其是Java程序员）可以快速上手。
 
-JavaScript的版本
+### JavaScript的版本
 1997年7月，ECMAScript 1.0发布。
 
 1998年6月，ECMAScript 2.0版发布。
@@ -79,7 +80,6 @@ JavaScript的版本
 
 除了ECMAScript的版本，很长一段时间中，Netscape公司（以及继承它的Mozilla基金会）在内部依然使用自己的版本号。这导致了JavaScript有自己不同于ECMAScript的版本号。1996年3月，Navigator 2.0内置了JavaScript 1.0。JavaScript 1.1版对应ECMAScript 1.0，但是直到JavaScript 1.4版才完全兼容ECMAScript 1.0。JavaScript 1.5版完全兼容ECMAScript 3.0。目前的JavaScript 1.8版完全兼容ECMAScript 5。
 
-周边大事记
 JavaScript伴随着互联网的发展一起发展。互联网周边技术的快速发展，刺激和推动了JavaScript语言的发展。
 
 1996年，样式表标准CSS第一版发布。
@@ -173,3 +173,5 @@ JavaScript伴随着互联网的发展一起发展。互联网周边技术的快�
 2017年6月，《ECMAScript 2017 标准》发布，正式引入了 async 函数，使得异步操作的写法出现了根本的变化。
 
 2017年11月，所有主流浏览器全部支持 WebAssembly，这意味着任何语言都可以编译成 JavaScript，在浏览器运行。
+
+##### 本文属于网摘 如有侵权请联系作者删除。
