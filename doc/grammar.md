@@ -599,14 +599,8 @@ top:
 ```
 上面代码中，continue命令后面有一个标签名，满足条件时，会跳过当前循环，直接进入下一轮外层循环。如果continue语句后面不使用标签，则只能进入下一轮的内层循环。
 
-参考链接
-Axel Rauschmayer, A quick overview of JavaScript
-<<<<<<< HEAD
 
 
 ##### 本文属于网摘 如有侵权请联系作者删除。
 =======
-留言
-comments powered by Disqus
-版权声明 | last modified on 2013-12-08
->>>>>>> ed9b61f6c366f6cb8f35457efb5207cef4b31d9f
+
