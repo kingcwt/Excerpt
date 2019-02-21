@@ -1,6 +1,6 @@
 
-### JavaScript 数据类型
-
+###  数据类型
+-----------------------
 概述
 typeof 运算符
 null 和 undefined
