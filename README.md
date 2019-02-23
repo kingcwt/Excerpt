@@ -1,4 +1,8 @@
 
+## JavaScript 总结
+
+![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
+
 ### 一 、 JavaScript语言的演变
 
    #### 1、[JavaScript的演变过程](./doc/evolutionofjs.md)
