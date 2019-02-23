@@ -2,7 +2,7 @@
 ## JavaScript 总结
 
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
-
+https://img.shields.io/apm/l/:packageName.svg
 
 ![GitHub](https://img.shields.io/github/sourcerank/:platform/:library.svg)
 
