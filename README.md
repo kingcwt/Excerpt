@@ -4,7 +4,7 @@
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 
-![GitHub](https://img.shields.io/librariesio/sourcerank/:platform/:library.svg)
+![GitHub](https://img.shields.io/github/sourcerank/:platform/:library.svg)
 
 ### 一 、 JavaScript语言的演变
 
