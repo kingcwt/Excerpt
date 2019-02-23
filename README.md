@@ -3,7 +3,7 @@
 
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 ![GitHub](https://img.shields.io/apm/l/:packageName.svg)
-![GitHub](https://img.shields.io/github/sourcerank/:platform/:library.svg)
+![GitHub](https://img.shields.io/uptimerobot/ratio/212.svg?color=21&label=2&logo=12&logoColor=12121)
 
 ### 一 、 JavaScript语言的演变
 
