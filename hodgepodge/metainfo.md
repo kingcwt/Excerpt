@@ -1,5 +1,5 @@
 
-### 关于meta标签
+### meta标签之浏览器缓存问题和性能优化
 
 -----------------------
 
@@ -74,7 +74,7 @@ meta标签的http-equiv属性语法格式是：
 
 说明：自动刷新并指向新页面。
 
-用法：<meta http-equiv="Refresh"content="2;URL=http://www.jb51.net">(注意后面的引号，分别在秒数的前面和网址的后面)
+用法：<meta http-equiv="Refresh"content="2";URL="http://www.jb51.net">(注意后面的引号，分别在秒数的前面和网址的后面)
 
 注意：其中的2是指停留2秒钟后自动刷新到URL网址。
 
@@ -108,14 +108,23 @@ meta标签的http-equiv属性语法格式是：
 指定请求和响应遵循的缓存机制。
 ```
 Cache-Control指定请求和响应遵循的缓存机制。在请求消息或响应消息中设置Cache-Control并不会修改另一个消息处理过程中的缓存处理过程。请求时的缓存指令包括no-cache、no-store、max-age、max-stale、min-fresh、on
+
 ly-if-cached，响应消息中的指令包括public、private、no-cache、no-store、no-transform、must-revalidate、proxy-revalidate、max-age。各个消息中的指令含义如下
+
 Public指示响应可被任何缓存区缓存
+
 Private指示对于单个用户的整个或部分响应消息，不能被共享缓存处理。这允许服务器仅仅描述当用户的部分响应消息，此响应消息对于其他用户的请求无效
+
 no-cache指示请求或响应消息不能缓存  告诉浏览器、缓存服务器，不管本地副本是否过期，使用资源副本前，一定要到源服务器进行副本有效性
+
 no-store用于防止重要的信息被无意的发布。在请求消息中发送将使得请求和响应消息都不使用缓存。
+
 max-age指示客户机可以接收生存期不大于指定时间（以秒为单位）的响应
+
 min-fresh指示客户机可以接收响应时间小于当前时间加上指定时间的响应
+
 max-stale指示客户机可以接收超出超时期间的响应消息。如果指定max-stale消息的值，那么客户机可以接收超出超时期指定值之内的响应消息。
+
 must-revalidate :告诉浏览器、缓存服务器，本地副本过期前，可以使用本地副本；本地副本一旦过期，必须去源服务器进行·有效性校验。
 ```
 
@@ -131,17 +140,27 @@ DNS Prefetching 是让具有此属性的域名不需要用户点击链接就在�
 
 ```
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">           //IE兼容处理 客户端有Chrome Frame 用Chrome内核渲染
+
   <title>title</title>
+
   <meta name="keywords" content="关键字,查询"/>
+
   <meta name="description" content="这是关键句"/>
+
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>     //适配
+
 // 加快页面的解析速度
+
   <meta http-equiv="x-dns-prefetch-control" content="on">
+
   <link rel="dns-prefetch" href="https://github.com/kingcwt">
 
   <meta http-equiv="pragma" content="no-cache">                                //禁止浏览器从本地计算机的缓存中访问页面内容。
+
   <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">           //不缓存，有效性校验
+
   <meta http-equiv="expires" content="0">                                          // 网页过期时间，清除缓存
+
   <meta name="author" content="1003835955@qq.com;kingCwt">                        //作者
 
 
