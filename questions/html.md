@@ -7,11 +7,13 @@
 
 ### 行内元素有哪些？块级元素有哪些？空元素有哪些？  
 
+```
   1、span,a,img,input,label,textarea,    
   
   2、p,div,h1-h6,,ul,li,  
   
-  3、br,link,meta,img,input,hr  
+  3、br,link,meta,img,input,hr    
+```  
   
 
 ### 对浏览器的理解？
