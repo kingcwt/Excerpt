@@ -309,12 +309,12 @@ JavaScript 一共提供了8个比较运算符。
 
 #### 字符串的比较
 字符串按照字典顺序进行比较。
-````
+```
 'cat' > 'dog' // false
 'cat' > 'catalog' // false
 ```
 JavaScript 引擎内部首先比较首字符的 Unicode 码点。如果相等，再比较第二个字符的 Unicode 码点，以此类推。
-````
+```
 'cat' > 'Cat' // true'
 ```
 上面代码中，小写的c的 Unicode 码点（99）大于大写的C的 Unicode 码点（67），所以返回true。
