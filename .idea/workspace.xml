@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf0d66c-b044-4d47-81b4-84b5082cfb47" name="Default" comment="2/21/10:33">
-      <change afterPath="$PROJECT_DIR$/doc/operator.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/html.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/operator.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/operator.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题.md" beforeDir="false" afterPath="$PROJECT_DIR$/interviewQuestions.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,26 +31,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="js" value="5" />
-          <entry key="md" value="30" />
+          <entry key="md" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JavaScript" value="5" />
-          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="PLAIN_TEXT" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="1580" />
-          <entry key="md" value="6948" />
+          <entry key="md" value="7765" />
           <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="1580" />
-          <entry key="PLAIN_TEXT" value="6965" />
+          <entry key="PLAIN_TEXT" value="7782" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -59,17 +61,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="405">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/operator.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="855" selection-start-line="855" selection-end-line="855" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interviewQuestions.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="141" selection-start-line="141" selection-end-line="141" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doc/operator.md">
+        <entry file="file://$PROJECT_DIR$/questions/html.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="1101" column="25" selection-start-line="1101" selection-start-column="25" selection-end-line="1101" selection-end-column="25" />
+            <state relative-caret-position="513">
+              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quest.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -90,7 +119,14 @@
       <find>查看</find>
       <find>prag</find>
       <find>expires</find>
+      <find>``</find>
+      <find>加法运算</find>
+      <find>以此类推</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>```</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -114,6 +150,10 @@
         <option value="$PROJECT_DIR$/doc/function.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/doc/operator.md" />
+        <option value="$PROJECT_DIR$/interviewQuestions.md" />
+        <option value="$PROJECT_DIR$/questions/quest.md" />
+        <option value="$PROJECT_DIR$/quest.md" />
+        <option value="$PROJECT_DIR$/questions/html.md" />
       </list>
     </option>
   </component>
@@ -124,8 +164,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="350" />
-    <option name="y" value="204" />
+    <option name="x" value="295" />
+    <option name="y" value="164" />
     <option name="width" value="1271" />
     <option name="height" value="705" />
   </component>
@@ -141,11 +181,6 @@
             <path>
               <item name="Project-notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project-notes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project-notes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project-notes" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,7 +248,7 @@
       <workItem from="1550886425179" duration="1171000" />
       <workItem from="1550889806546" duration="14335000" />
       <workItem from="1551059094278" duration="2897000" />
-      <workItem from="1551073703685" duration="1179000" />
+      <workItem from="1551073703685" duration="10233000" />
     </task>
     <task id="LOCAL-00001" summary="121">
       <created>1550716213746</created>
@@ -240,13 +275,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63782000" />
+    <option name="totallyTimeSpent" value="72836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.05374078" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12486828" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -270,6 +305,97 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$USER_HOME$/Desktop/clipboard.js-master/node_modules/karma/config.tpl.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/PolygonDrawingScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/CurvedLinkReshapingTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/FloorPlanEditorScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/LocalStorageCommandHandler.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/RoundedRectangles.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/LinkLabelDraggingTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/ParallelRouteScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/DrawCommandHandler.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/Figures.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/Buttons.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/SpiralScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/PortShiftingScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/ColumnResizingTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/GuidedDraggingTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/SectorReshapingScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/Templates.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/LinkLabelOnPathDraggingTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/FreehandDrawingScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/TreeMapScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/Robot.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/PolygonDrawingTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/BalloonLinkScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/SectorReshapingTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/FishboneLayout.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/DragZoomingScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/NodeLabelDraggingTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/DimensioningLink.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/ResizeMultipleScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/NonRealtimeDraggingScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/HyperlinkText.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/DragCreatingTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/SnapLinkReshapingScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/TextEditorSelectBox.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/FloorPlanMonitorScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/ScrollingTableScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/GeometryReshapingScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/ExtendedBrush.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/ScrollingTable.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/ResizeMultipleTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/ColumnResizingScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/RadialScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/CurvedLinkReshapingScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/DataInspectorScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/NodeLabelDraggingScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/DrawCommandHandlerScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/NonRealtimeDraggingTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/DataInspector.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/BPMNClasses.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/LinkLabelDraggingScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/TextEditor.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/RadialLayout.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/PolylineLinkingTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/GuidedDraggingScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/RowResizingTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/GeometryReshapingTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/BPMNScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/FreehandDrawingTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/LightBoxContextMenu.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/LinkShiftingScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/SpiralLayout.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/RotateMultipleTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/HyperlinkScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/RealtimeDragSelectingTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/LinkLabelOnPathDraggingScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/LocalStorageCommandHandlerScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/SerpentineLayout.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/TextEditorRadioButtons.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/TextEditorScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/RotateMultipleScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/OrthogonalLinkReshapingTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/TreeMapLayout.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/BalloonLink.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/ParallelScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/ParallelLayout.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/DragZoomingTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/CheckBoxesScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/TableScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/PolylineLinkingScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/LinkShiftingTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/OrthogonalLinkReshapingScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/DimensioningScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/Arrowheads.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/ParallelRouteLink.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/RealtimeDragSelectingScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/RobotScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/PortShiftingTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/FishboneScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/SerpentineScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/SnapLinkReshapingTool.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/DragCreatingScript.js" />
+        <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/TableLayout.js" />
       </list>
     </option>
   </component>
@@ -393,13 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/面试题.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2781">
-          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/function.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -423,15 +542,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="405">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/operator.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="1101" column="25" selection-start-line="1101" selection-start-column="25" selection-end-line="1101" selection-end-column="25" />
+        <state relative-caret-position="450">
+          <caret line="855" selection-start-line="855" selection-end-line="855" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interviewQuestions.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quest.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/questions/html.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
         </state>
       </provider>
     </entry>

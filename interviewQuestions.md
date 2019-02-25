@@ -90,13 +90,19 @@ console.log(log(1, 2, 3));//  [ '(what you say)', 1, 2, 3 ]
     1.5、componentDidMount:组件挂载后
 
   2、运行中状态：
+
     2.1、componentWillReceiveProps:组件将要接受新的属性是调用
+
     2.2、shouldComponentUpdate:组件接受新属性是 （应该更新时调用）
+
     2.3、componentWillUpdate:组件将要更新时
+
     2.4、render()：生成虚拟DOM树 渲染
+
     2.5、componentDidUpdate:组件更新后
 
   3、销毁状态：
+
     3.1、componentWillUnmount:组件将要销毁时调用
 
 
@@ -107,17 +113,32 @@ console.log(log(1, 2, 3));//  [ '(what you say)', 1, 2, 3 ]
 #### 为什么虚拟DOM会提高性能？
 
   1、虚拟DOM相当于在JS和真实DOM之前加了一个缓存，利用Dom Diff算法避免不必要的DOM操作。
+
   2、当状态更新时。会先创建一个虚拟DOM对象 判断与真实DOM之前的差异，把合并后的状态构建在真实DOM树上 视图就更新了
+
 
 #### 简述flux思想
 
   1、用户访问view,view发出用户的Action,
+
   2、dispatcher收到Action,要求Store进行相应更新、
+
   3、Store更新后、发出一个'change'事件、view收到'change'事件后 更新页面
 
 #### 简述 redux
+```
+  redux 是一个应用数据流框架，主要是解决了`组件间状态共享的问题`，原理是`集中式管理`，主要有三个核心方法，action，store，reducer，
+  工作流程是 view 调用 store 的 dispatch 接收 action 传入 store，reducer 进行 state 操作，view 通过 store 提供的 getState 获取最新的数据，
 
-  redux 是一个应用数据流框架，主要是解决了组件间状态共享的问题，原理是集中式管理，主要有三个核心方法，action，store，reducer，工作流程是 view 调用 store 的 dispatch 接收 action 传入 store，reducer 进行 state 操作，view 通过 store 提供的 getState 获取最新的数据，flux 也是用来进行数据操作的，有四个组成部分 action，dispatch，view，store，工作流程是 view 发出一个 action，派发器接收 action，让 store 进行数据更新，更新完成以后 store 发出 change，view 接受 change 更新视图。Redux 和 Flux 很像。
-  主要区别在于 Flux 有多个可以改变应用状态的 store，在 Flux 中 dispatcher 被用来传递数据到注册的回调事件，但是在 redux 中只能定义一个可更新状态的 store，redux 把 store 和 Dispatcher 合并,结构更加简单清晰
-  新增 state,对状态的管理更加明确，通过 redux，流程更加规范了，减少手动编码量，提高了编码效率，同时缺点时当数据更新时有时候组件不需要，但是也要重新绘制，有些影响效率。一般情况下，我们在构建多交互，多数据流的复杂项目应用时才会使用它们
+  flux 也是用来进行数据操作的，有四个组成部分 action，dispatch，view，store，
+  工作流程是 view 发出一个 action，派发器接收 action，让 store 进行数据更新，更新完成以后 store 发出 change，view 接受 change 更新视图。
+  Redux 和 Flux 很像。
+  主要区别在于 Flux 有多个可以改变应用状态的 store，在 Flux 中 dispatcher 被用来传递数据到注册的回调事件，
+  但是在 redux 中只能定义一个可更新状态的 store，redux 把 store 和 Dispatcher 合并,结构更加简单清晰
+  新增 state,对状态的管理更加明确，通过 redux，流程更加规范了，减少手动编码量，提高了编码效率，同时缺点时当数据更新时有时候组件不需要，
+  但是也要重新绘制，有些影响效率。一般情况下，我们在构建多交互，多数据流的复杂项目应用时才会使用它们
+```
+
+
+
 
