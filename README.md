@@ -24,3 +24,5 @@
    #### 6、[数组](./doc/array.md)
 
    #### 7、[函数](./doc/function.md)
+
+   #### 8、[运算符](./doc/operator.md)
