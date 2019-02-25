@@ -5,13 +5,14 @@
 
   2、标准模式：页面排版及JS运作都以该浏览器的最高标准运作。兼容模式：浏览器会模仿老式浏览器的行为，以保证页面的正常运作
 
-### 行内元素有哪些？块级元素有哪些？空元素有哪些？
+### 行内元素有哪些？块级元素有哪些？空元素有哪些？  
 
-  1、span,a,img,input,label,textarea,
-
-  2、p,div,h1-h6,,ul,li,
-
-  3、br,link,meta,img,input,hr
+  1、span,a,img,input,label,textarea,    
+  
+  2、p,div,h1-h6,,ul,li,  
+  
+  3、br,link,meta,img,input,hr  
+  
 
 ### 对浏览器的理解？
 
