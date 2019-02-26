@@ -429,3 +429,5 @@ arr.forEach(function (chr) {
 ```
 
 ##### 本文属于网摘，如有侵权请联系作者删除。
+
+![文章原地址]：http://javascript.ruanyifeng.com

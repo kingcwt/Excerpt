@@ -529,4 +529,7 @@ isFinite(-1) // true
 除了Infinity、-Infinity、NaN和undefined这几个值会返回false，isFinite对于其他的数值都会返回true。
 
 
-##### 本文来自网摘 如有侵权请联系作者删除。
+
+##### 本文属于网摘 如有侵权请联系作者删除。
+
+![文章原地址]：http://javascript.ruanyifeng.com

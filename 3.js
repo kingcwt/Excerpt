@@ -54,9 +54,20 @@
 // }
 //
 // f(1, 2)
+//
+// var f=function () {
+//     console.log(arguments, f);
+// };
+//
+// f();
 
-var f=function () {
-    console.log(arguments, f);
+
+let type=function (v) {
+
+    let s=Object.prototype.toString.call(v);
+    return s.match(/\[object (.*?)\]/)[1].toLowerCase();
+
+
 };
 
-f();
+console.log(type(''));

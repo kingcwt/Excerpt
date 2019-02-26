@@ -174,4 +174,7 @@ JavaScript伴随着互联网的发展一起发展。互联网周边技术的快�
 
 2017年11月，所有主流浏览器全部支持 WebAssembly，这意味着任何语言都可以编译成 JavaScript，在浏览器运行。
 
+
 ##### 本文属于网摘 如有侵权请联系作者删除。
+
+![文章原地址]：http://javascript.ruanyifeng.com
