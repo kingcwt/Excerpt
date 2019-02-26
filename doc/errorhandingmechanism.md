@@ -100,6 +100,7 @@ this = 1
 RangeError对象是一个值超出有效范围时发生的错误。主要有几种情况，一是数组长度为负数，二是Number对象的方法参数超出范围，以及函数堆栈超过最大值。
 ```
 // 数组长度不得为负数
+```
 new Array(-1)
 // Uncaught RangeError: Invalid array length
 ```
