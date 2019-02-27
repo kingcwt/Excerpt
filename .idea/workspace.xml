@@ -2,21 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf0d66c-b044-4d47-81b4-84b5082cfb47" name="Default" comment="2/21/10:33">
-      <change afterPath="$PROJECT_DIR$/doc/Object_s.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/datatypeconversion.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/errorhandingmechanism.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/programmingstyle.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/array_s.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Object_s.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Object_s.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/array.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/array.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/datatype.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/datatype.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/datatypeconversion.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/datatypeconversion.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/errorhandingmechanism.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/errorhandingmechanism.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/evolutionofjs.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/evolutionofjs.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/function.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/function.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/grammar.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/grammar.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/numericalvalue.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/numericalvalue.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/object.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/object.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/operator.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/operator.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/programmingstyle.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/programmingstyle.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/string.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/string.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/questions/html.md" beforeDir="false" afterPath="$PROJECT_DIR$/questions/html.md" afterDir="false" />
     </list>
@@ -33,37 +34,37 @@
     <session id="-1372114286">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="6" />
-          <entry key="md" value="46" />
+          <entry key="js" value="7" />
+          <entry key="md" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="6" />
-          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="JavaScript" value="7" />
+          <entry key="PLAIN_TEXT" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="1771" />
-          <entry key="md" value="9369" />
+          <entry key="js" value="3695" />
+          <entry key="md" value="10528" />
           <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1771" />
-          <entry key="PLAIN_TEXT" value="9386" />
+          <entry key="JavaScript" value="3695" />
+          <entry key="PLAIN_TEXT" value="10545" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -72,19 +73,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quest.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="559">
+              <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doc/Object_s.md">
+        <entry file="file://$PROJECT_DIR$/doc/array_s.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="391" column="41" selection-start-line="391" selection-start-column="41" selection-end-line="391" selection-end-column="41" />
+            <state relative-caret-position="640">
+              <caret line="671" column="38" selection-start-line="671" selection-start-column="38" selection-end-line="671" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -92,71 +102,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="72" column="22" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="22" />
+            <state relative-caret-position="486">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/errorhandingmechanism.md">
+        <entry file="file://$PROJECT_DIR$/questions/html.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9909">
-              <caret line="367" column="3" lean-forward="true" selection-start-line="367" selection-start-column="3" selection-end-line="367" selection-end-column="3" />
+            <state relative-caret-position="785">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/function.md">
+        <entry file="file://$PROJECT_DIR$/doc/datatype.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
-              <caret line="865" column="41" selection-start-line="865" selection-start-column="41" selection-end-line="865" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/numericalvalue.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="531" lean-forward="true" selection-start-line="531" selection-end-line="534" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/object.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11880">
-              <caret line="440" column="41" selection-start-line="440" selection-start-column="41" selection-end-line="440" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/operator.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
-              <caret line="1104" column="41" selection-start-line="1104" selection-start-column="41" selection-end-line="1104" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/string.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="251" selection-start-line="251" selection-end-line="253" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/programmingstyle.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="419" column="41" selection-start-line="419" selection-start-column="41" selection-end-line="419" selection-end-column="41" />
+            <state relative-caret-position="437">
+              <caret line="224" selection-start-line="224" selection-end-line="226" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -180,6 +145,7 @@
       <find>``</find>
       <find>加法运算</find>
       <find>以此类推</find>
+      <find>ReferenceError</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -200,22 +166,23 @@
         <option value="$PROJECT_DIR$/interviewQuestions.md" />
         <option value="$PROJECT_DIR$/questions/quest.md" />
         <option value="$PROJECT_DIR$/quest.md" />
-        <option value="$PROJECT_DIR$/questions/html.md" />
         <option value="$PROJECT_DIR$/doc/array.md" />
         <option value="$PROJECT_DIR$/doc/datatype.md" />
         <option value="$PROJECT_DIR$/doc/datatypeconversion.md" />
-        <option value="$PROJECT_DIR$/doc/errorhandingmechanism.md" />
         <option value="$PROJECT_DIR$/doc/evolutionofjs.md" />
         <option value="$PROJECT_DIR$/doc/function.md" />
         <option value="$PROJECT_DIR$/doc/grammar.md" />
         <option value="$PROJECT_DIR$/doc/numericalvalue.md" />
         <option value="$PROJECT_DIR$/doc/object.md" />
-        <option value="$PROJECT_DIR$/doc/operator.md" />
-        <option value="$PROJECT_DIR$/doc/string.md" />
-        <option value="$PROJECT_DIR$/doc/programmingstyle.md" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/3.js" />
         <option value="$PROJECT_DIR$/doc/Object_s.md" />
+        <option value="$PROJECT_DIR$/doc/operator.md" />
+        <option value="$PROJECT_DIR$/doc/programmingstyle.md" />
+        <option value="$PROJECT_DIR$/doc/string.md" />
+        <option value="$PROJECT_DIR$/doc/errorhandingmechanism.md" />
+        <option value="$PROJECT_DIR$/questions/html.md" />
+        <option value="$PROJECT_DIR$/3.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/doc/array_s.md" />
       </list>
     </option>
   </component>
@@ -226,8 +193,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="285" />
-    <option name="y" value="129" />
+    <option name="x" value="295" />
+    <option name="y" value="164" />
     <option name="width" value="1271" />
     <option name="height" value="705" />
   </component>
@@ -316,7 +283,8 @@
       <workItem from="1550889806546" duration="14335000" />
       <workItem from="1551059094278" duration="2897000" />
       <workItem from="1551073703685" duration="11287000" />
-      <workItem from="1551143479962" duration="5957000" />
+      <workItem from="1551143479962" duration="11992000" />
+      <workItem from="1551231495438" duration="7245000" />
     </task>
     <task id="LOCAL-00001" summary="121">
       <created>1550716213746</created>
@@ -343,18 +311,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79847000" />
+    <option name="totallyTimeSpent" value="93127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12486828" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12486828" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25813448" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21583514" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -483,6 +451,8 @@
         <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/SnapLinkReshapingTool.js" />
         <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/DragCreatingScript.js" />
         <option value="D:/OBJECT/case_139Mall/node_modules/gojs/extensionsTS/TableLayout.js" />
+        <option value="$PROJECT_DIR$/../umiDva/node_modules/umi-plugin-dva/src/fixtures/getModel/models/models/a.jsx" />
+        <option value="$PROJECT_DIR$/../umiDva/node_modules/umi-plugin-dva/src/fixtures/getModel/models/models/a.js" />
       </list>
     </option>
   </component>
@@ -564,20 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quest.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/questions/html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interviewQuestions.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3404">
@@ -587,106 +543,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/array.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="430" column="25" selection-start-line="430" selection-start-column="25" selection-end-line="430" selection-end-column="25" />
+        <state relative-caret-position="650">
+          <caret line="430" selection-start-line="430" selection-end-line="432" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/datatypeconversion.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="375" lean-forward="true" selection-start-line="375" selection-end-line="375" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/datatype.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="224" lean-forward="true" selection-start-line="224" selection-end-line="227" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/evolutionofjs.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="179" column="41" selection-start-line="179" selection-start-column="41" selection-end-line="179" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/grammar.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="610" column="41" selection-start-line="610" selection-start-column="41" selection-end-line="610" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/function.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="865" column="41" selection-start-line="865" selection-start-column="41" selection-end-line="865" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/operator.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="1104" column="41" selection-start-line="1104" selection-start-column="41" selection-end-line="1104" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/string.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="251" selection-start-line="251" selection-end-line="253" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/object.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11880">
-          <caret line="440" column="41" selection-start-line="440" selection-start-column="41" selection-end-line="440" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="72" column="22" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/numericalvalue.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="531" lean-forward="true" selection-start-line="531" selection-end-line="534" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/programmingstyle.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="419" column="41" selection-start-line="419" selection-start-column="41" selection-end-line="419" selection-end-column="41" />
+        <state relative-caret-position="690">
+          <caret line="373" column="38" selection-start-line="373" selection-start-column="38" selection-end-line="373" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/errorhandingmechanism.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9909">
-          <caret line="367" column="3" lean-forward="true" selection-start-line="367" selection-start-column="3" selection-end-line="367" selection-end-column="3" />
+        <state relative-caret-position="261">
+          <caret line="98" column="18" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/string.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="253" column="38" selection-start-line="253" selection-start-column="38" selection-end-line="253" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/programmingstyle.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="418" column="38" selection-start-line="418" selection-start-column="38" selection-end-line="418" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/operator.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="1104" column="38" selection-start-line="1104" selection-start-column="38" selection-end-line="1104" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/evolutionofjs.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="179" column="38" selection-start-line="179" selection-start-column="38" selection-end-line="179" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/function.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="865" column="38" selection-start-line="865" selection-start-column="38" selection-end-line="865" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/grammar.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="610" column="38" selection-start-line="610" selection-start-column="38" selection-end-line="610" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/numericalvalue.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="534" column="38" selection-start-line="534" selection-start-column="38" selection-end-line="534" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/object.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="440" column="38" selection-start-line="440" selection-start-column="38" selection-end-line="440" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/Object_s.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="391" column="41" selection-start-line="391" selection-start-column="41" selection-end-line="391" selection-end-column="41" />
+        <state relative-caret-position="731">
+          <caret line="391" column="38" selection-start-line="391" selection-start-column="38" selection-end-line="391" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quest.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/questions/html.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/datatype.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="224" selection-start-line="224" selection-end-line="226" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/array_s.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="671" column="38" selection-start-line="671" selection-start-column="38" selection-end-line="671" selection-end-column="38" />
         </state>
       </provider>
     </entry>

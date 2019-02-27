@@ -100,6 +100,7 @@ this = 1
 RangeError对象是一个值超出有效范围时发生的错误。主要有几种情况，一是数组长度为负数，二是Number对象的方法参数超出范围，以及函数堆栈超过最大值。
 ```
 // 数组长度不得为负数
+```
 new Array(-1)
 // Uncaught RangeError: Invalid array length
 ```
@@ -389,7 +390,6 @@ try {
 上面代码中，进入catch代码块之后，一遇到throw语句，就会去执行finally代码块，其中有return false语句，因此就直接返回了，不再会回去执行catch代码块剩下的部分了。
 
 
+##### 本文属于网摘，如有侵权请联系作者删除。
 
-##### 本文属于网摘 如有侵权请联系作者删除。
-
-![文章原地址]：http://javascript.ruanyifeng.com
+文章原地址：http://javascript.ruanyifeng.com

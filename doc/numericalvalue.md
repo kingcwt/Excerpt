@@ -530,6 +530,6 @@ isFinite(-1) // true
 
 
 
-##### 本文属于网摘 如有侵权请联系作者删除。
+##### 本文属于网摘，如有侵权请联系作者删除。
 
-![文章原地址]：http://javascript.ruanyifeng.com
+文章原地址：http://javascript.ruanyifeng.com

@@ -34,6 +34,10 @@
 
    #### 11、[编程风格](./doc/programmingstyle.md)
 
+-------------------------------------------------------------
+
 ### 三 、 JavaScript标准库
 
   #### 1、[Object对象](./doc/Object_s.md)
+
+  #### 2、[Array对象](./doc/array_s.md)
