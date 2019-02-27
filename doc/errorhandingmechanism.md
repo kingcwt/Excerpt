@@ -392,4 +392,10 @@ try {
 
 ##### 本文属于网摘，如有侵权请联系作者删除。
 
+<<<<<<< HEAD
 文章原地址：http://javascript.ruanyifeng.com
+=======
+##### 本文属于网摘 如有侵权请联系作者删除。
+
+![文章原地址]：http://javascript.ruanyifeng.com
+>>>>>>> f6d45c7f0a858f2fea4b6ae6407a6bcaffe084c3
