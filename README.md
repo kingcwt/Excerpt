@@ -41,3 +41,11 @@
   #### 1、[Object对象](./doc/Object_s.md)
 
   #### 2、[Array对象](./doc/array_s.md)
+
+  #### 3、[包装对象](./doc/packaging_object.md)
+
+  #### 4、[Number对象](./doc/number_object.md)
+
+  #### 5、[String对象](./doc/string_object.md)
+
+  #### 6、[Math对象](./doc/math_object.md)

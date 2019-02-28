@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf0d66c-b044-4d47-81b4-84b5082cfb47" name="Default" comment="2/21/10:33">
-      <change afterPath="$PROJECT_DIR$/doc/array_s.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/math_object.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/number_object.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/packaging_object.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/string_object.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/Object_s.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Object_s.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/array.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/array.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/datatype.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/datatype.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/datatypeconversion.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/datatypeconversion.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/errorhandingmechanism.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/errorhandingmechanism.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/evolutionofjs.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/evolutionofjs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/function.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/function.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/grammar.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/grammar.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/numericalvalue.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/numericalvalue.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/object.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/object.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/operator.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/operator.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/programmingstyle.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/programmingstyle.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/string.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/string.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/html.md" beforeDir="false" afterPath="$PROJECT_DIR$/questions/html.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,37 +23,38 @@
     <session id="-1372114286">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="7" />
-          <entry key="md" value="63" />
+          <entry key="js" value="8" />
+          <entry key="md" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="7" />
-          <entry key="PLAIN_TEXT" value="63" />
+          <entry key="JavaScript" value="8" />
+          <entry key="PLAIN_TEXT" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="3695" />
-          <entry key="md" value="10528" />
+          <entry key="js" value="4183" />
+          <entry key="md" value="11946" />
           <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="3695" />
-          <entry key="PLAIN_TEXT" value="10545" />
+          <entry key="JavaScript" value="4183" />
+          <entry key="PLAIN_TEXT" value="11963" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -76,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/quest.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -84,17 +74,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+            <state relative-caret-position="530">
+              <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doc/array_s.md">
+        <entry file="file://$PROJECT_DIR$/doc/math_object.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="671" column="38" selection-start-line="671" selection-start-column="38" selection-end-line="671" selection-end-column="38" />
+            <state relative-caret-position="614">
+              <caret line="231" lean-forward="true" selection-start-line="231" selection-end-line="231" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/number_object.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="193" selection-start-line="193" selection-end-line="195" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/string_object.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="556">
+              <caret line="343" column="38" selection-start-line="343" selection-start-column="38" selection-end-line="343" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/packaging_object.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
             </state>
           </provider>
         </entry>
@@ -102,8 +119,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="-3289">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="12" selection-start-line="12" selection-end-line="23" selection-end-column="26" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,7 +140,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/questions/html.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="785">
+            <state relative-caret-position="640">
               <caret line="69" selection-start-line="69" selection-end-line="69" />
             </state>
           </provider>
@@ -120,8 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc/datatype.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="224" selection-start-line="224" selection-end-line="226" selection-end-column="38" />
+            <state relative-caret-position="424">
+              <caret line="223" lean-forward="true" selection-start-line="223" selection-end-line="226" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -181,8 +210,13 @@
         <option value="$PROJECT_DIR$/doc/errorhandingmechanism.md" />
         <option value="$PROJECT_DIR$/questions/html.md" />
         <option value="$PROJECT_DIR$/3.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/doc/array_s.md" />
+        <option value="$PROJECT_DIR$/doc/packaging_object.md" />
+        <option value="$PROJECT_DIR$/doc/number_object.md" />
+        <option value="$PROJECT_DIR$/doc/string_object.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/4.js" />
+        <option value="$PROJECT_DIR$/doc/math_object.md" />
       </list>
     </option>
   </component>
@@ -193,8 +227,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="295" />
-    <option name="y" value="164" />
+    <option name="x" value="322" />
+    <option name="y" value="178" />
     <option name="width" value="1271" />
     <option name="height" value="705" />
   </component>
@@ -204,6 +238,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,7 +255,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,7 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.3.js">
+  <component name="RunManager" selected="Node.js.4.js">
     <configuration name="1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -251,13 +285,18 @@
     <configuration name="3.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="3.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="4.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="4.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Node.js.1.js" />
       <item itemvalue="Node.js.2.js" />
       <item itemvalue="Node.js.3.js" />
+      <item itemvalue="Node.js.4.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.4.js" />
         <item itemvalue="Node.js.3.js" />
         <item itemvalue="Node.js.2.js" />
         <item itemvalue="Node.js.1.js" />
@@ -284,7 +323,8 @@
       <workItem from="1551059094278" duration="2897000" />
       <workItem from="1551073703685" duration="11287000" />
       <workItem from="1551143479962" duration="11992000" />
-      <workItem from="1551231495438" duration="7245000" />
+      <workItem from="1551231495438" duration="7899000" />
+      <workItem from="1551316137391" duration="8577000" />
     </task>
     <task id="LOCAL-00001" summary="121">
       <created>1550716213746</created>
@@ -311,18 +351,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93127000" />
+    <option name="totallyTimeSpent" value="102358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12486828" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49934298" visible="true" weight="0.12486828" />
+      <window_info id="Structure" order="1" sideWeight="0.500657" side_tool="true" weight="0.12486828" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21583514" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21800433" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -341,7 +381,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25813448" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21583514" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -625,45 +665,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3.js">
+    <entry file="file://$PROJECT_DIR$/doc/array_s.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="111">
+          <caret line="476" column="22" selection-start-line="476" selection-start-column="22" selection-end-line="476" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+        <state relative-caret-position="-3289">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quest.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/questions/html.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
+        <state relative-caret-position="640">
           <caret line="69" selection-start-line="69" selection-end-line="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/datatype.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="224" selection-start-line="224" selection-end-line="226" selection-end-column="38" />
+        <state relative-caret-position="424">
+          <caret line="223" lean-forward="true" selection-start-line="223" selection-end-line="226" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/array_s.md">
+    <entry file="file://$PROJECT_DIR$/doc/string_object.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="671" column="38" selection-start-line="671" selection-start-column="38" selection-end-line="671" selection-end-column="38" />
+        <state relative-caret-position="556">
+          <caret line="343" column="38" selection-start-line="343" selection-start-column="38" selection-end-line="343" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/packaging_object.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" selection-start-line="12" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/number_object.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="193" selection-start-line="193" selection-end-line="195" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/math_object.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="231" lean-forward="true" selection-start-line="231" selection-end-line="231" />
         </state>
       </provider>
     </entry>
