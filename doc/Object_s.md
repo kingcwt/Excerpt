@@ -37,7 +37,7 @@ Object.print = function (o) { console.log(o) };
 ##### （2）Object的实例方法
 
 所谓实例方法就是定义在Object原型对象Object.prototype上的方法。它可以被Object实例直接使用。
-```
+```paython
 Object.prototype.print = function () {
   console.log(this);
 };
