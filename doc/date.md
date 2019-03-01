@@ -272,7 +272,7 @@ toTimeString方法返回时间字符串（不含年月日）。
 var d = new Date(2013, 0, 1);
 d.toTimeString() // "00:00:00 GMT+0800 (CST)"
 ```
-#####（7）Date.prototype.toLocaleDateString()
+##### （7）Date.prototype.toLocaleDateString()
 
 toLocaleDateString方法返回一个字符串，代表日期的当地写法（不含小时、分和秒）。
 ```js
