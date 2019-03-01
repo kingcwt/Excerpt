@@ -49,3 +49,5 @@
   #### 5、[String对象](./doc/string_object.md)
 
   #### 6、[Math对象](./doc/math_object.md)
+
+  #### 7、[Date对象](./doc/date.md)
