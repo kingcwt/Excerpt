@@ -29,7 +29,7 @@ Object对象的原生方法分成两类：Object本身的方法与Object的实�
 （1）Object对象本身的方法
 
 所谓”本身的方法“就是直接定义在Object对象的方法。
-```
+```node
 Object.print = function (o) { console.log(o) };
 ```
 上面代码中，print方法就是直接定义在Object对象上。
