@@ -51,3 +51,11 @@
   #### 6、[Math对象](./doc/math_object.md)
 
   #### 7、[Date对象](./doc/date.md)
+
+  #### 8、[正则](./doc/regular.md)
+
+  #### 9、[JSON对象](./doc/json.md)
+
+  #### 10、[console对象](./doc/console.md)
+
+  #### 11、[属性描述对象](./doc/attributedescription.md)

@@ -272,7 +272,7 @@ toTimeString方法返回时间字符串（不含年月日）。
 var d = new Date(2013, 0, 1);
 d.toTimeString() // "00:00:00 GMT+0800 (CST)"
 ```
-#####（7）Date.prototype.toLocaleDateString()
+##### （7）Date.prototype.toLocaleDateString()
 
 toLocaleDateString方法返回一个字符串，代表日期的当地写法（不含小时、分和秒）。
 ```js
@@ -283,7 +283,7 @@ var d = new Date(2013, 0, 1);
 // 中文版浏览器为"2013年1月1日"
 // 英文版浏览器为"1/1/2013"
 ```
-#####（8）Date.prototype.toLocaleTimeString()
+##### （8）Date.prototype.toLocaleTimeString()
 
 toLocaleTimeString方法返回一个字符串，代表时间的当地写法（不含年月日）。
 ```js
@@ -314,8 +314,9 @@ getTimezoneOffset()：返回当前时间与 UTC 的时区差异，以分钟表�
 日期：1 到 31
 月份：0（一月）到 11（十二月）
 年份：距离1900年的年数
-var d = new Date('January 6, 2013');
 ```js
+
+var d = new Date('January 6, 2013');
 d.getDate() // 6
 d.getMonth() // 0
 d.getYear() // 113
