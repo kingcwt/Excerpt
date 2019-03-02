@@ -29,7 +29,7 @@ Object对象的原生方法分成两类：Object本身的方法与Object的实�
 （1）Object对象本身的方法
 
 所谓”本身的方法“就是直接定义在Object对象的方法。
-```
+```node
 Object.print = function (o) { console.log(o) };
 ```
 上面代码中，print方法就是直接定义在Object对象上。
@@ -37,7 +37,7 @@ Object.print = function (o) { console.log(o) };
 ##### （2）Object的实例方法
 
 所谓实例方法就是定义在Object原型对象Object.prototype上的方法。它可以被Object实例直接使用。
-```
+```java
 Object.prototype.print = function () {
   console.log(this);
 };
@@ -55,7 +55,7 @@ obj.print() // Object
 Object本身是一个函数，可以当作工具方法使用，将任意值转为对象。这个方法常用于保证某个值一定是对象。
 
 如果参数为空（或者为undefined和null），Object()返回一个空对象。
-```
+```c
 var obj = Object();
 // 等同于
 var obj = Object(undefined);
@@ -68,7 +68,7 @@ obj instanceof Object // true
 instanceof运算符用来验证，一个对象是否为指定的构造函数的实例。obj instanceof Object返回true，就表示obj对象是Object的实例。
 
 如果参数是原始类型的值，Object方法将其转为对应的包装对象的实例（参见《原始类型的包装对象》一章）。
-```
+```c
 var obj = Object(1);
 obj instanceof Object // true
 obj instanceof Number // true
