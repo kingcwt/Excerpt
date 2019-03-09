@@ -390,12 +390,8 @@ try {
 上面代码中，进入catch代码块之后，一遇到throw语句，就会去执行finally代码块，其中有return false语句，因此就直接返回了，不再会回去执行catch代码块剩下的部分了。
 
 
-##### 本文属于网摘，如有侵权请联系作者删除。
 
-<<<<<<< HEAD
-文章原地址：http://javascript.ruanyifeng.com
 =======
 ##### 本文属于网摘 如有侵权请联系作者删除。
 
 ![文章原地址]：http://javascript.ruanyifeng.com
->>>>>>> f6d45c7f0a858f2fea4b6ae6407a6bcaffe084c3
