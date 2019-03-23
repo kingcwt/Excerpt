@@ -1,0 +1,291 @@
+1 alert(1&&2)
+d:只要&&前面的值是true 不管&&后面的值是true还是false都会返回后面的值 同理：只要||前面的值是false 不管||后面的值是true还是false
+都会返回后面的值；
+
+2 正则表达式验证长度为8-16的用户密码 （只能出现字母，数字，下划线）
+d var reg=/^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z_]{8,16}$/;
+
+3 试题1：  var z=10;
+          function foo() {
+              console.log(z);
+          }
+          (function (funarg) {
+              var z=20;
+              funarg();
+          })(foo)
+
+          10
+
+4 试题2：  var data=[];
+          for(var k=0;k<3;k++){
+              console.log(k);
+              data[k]=function () {
+                  console.log(k);
+              }
+          }
+          data[0]();   3
+          data[1]();   3
+          data[2]();   3
+
+5 试题3： var a=100;
+          function testResult() {
+              var b=2*a;
+              var a=200;
+              var c=a/2;
+              console.log(b);
+              console.log(c);
+          }
+          testResult();
+
+          NaN  100
+
+6 编写一个反转字符串函数reverse(str)(用多种办法实现)
+
+  var str='1234567';
+
+    function reverse(str) {
+        var arr='';
+        for(var i=0;i<str.length;i++){
+            arr+=str[str.length-1-i];
+        }
+        return arr;
+    }
+
+    function reverse1(str) {
+       var arrstr=str.split('');
+        arrstr.reverse();
+        var strjoin=arrstr.join('');
+        return strjoin;
+    }
+
+    console.log(reverse(str));  7654321
+    console.log(reverse1(str)); 7654321
+
+ 7 编写一个js函数fn 该函数有一个参数n(数字类型) 其函数返回值是一个数组，该数组内有n个随机且不重复的整数，且整数取值范围是【2，32】（充分考虑函数的健壮性）
+
+
+    function fn(n) {
+        var arr = [];
+        for (var i = 1; i <=n; i++) {
+            arr.push(Math.floor(Math.random() *31 +2));
+        }
+        return arr;
+    }
+
+    console.log(fn(2)); [x,x]
+
+ 8 如何理解闭包 并回答一下程序的输出结果
+
+    var count=10;
+    function add() {
+        var count=0;
+        return function () {
+            count+=1;
+            alert(count)
+        }
+    }
+
+    var s=add();
+
+    s();  // 1
+    s();  // 2
+
+ 9 let const var 的区别
+
+var :var 会在当前作用域下变量提升到顶部。如果在var a=1;之前打印a不会报错会报undefined
+let :对于let 如果在let a=1;之前打印 a 会报错。let会形成块级作用域 且不允许重复声明一个变量
+const:是一个常量，对于原始类型的值 保证其唯一性。如果const a=1; a=2||const a=2;则会报错,如果是复合类型指向的是一个地址、如果地址改变会报错。如果地址不变只是改变内部
+数据则不会报错 比如；const a=[]; a=[1]||const a=[1]则会报错。如果操作地址不变只是改变内部数据 比如 a[0]=1; 就不会报错 所以对于复合类型的数据 操作的是
+同一个地址 就没问题
+
+10 编写一个方法 去掉以下数组的重复元素
+
+var arr=[0,2,3,4,4,0,2];
+
+fn1: new Set(arr);
+
+fn2: function f(arr) {
+            var temp=[];
+            for(var i=0;i<arr.length;i++){
+                if(temp.indexOf(arr[i])==-1){
+                    temp.push(arr[i]);
+                }
+            }
+            return temp;
+        }
+
+fn3:    function f1() {
+            arr.sort((a, b) => a - b);
+            for (var i = 0; i < arr.length; i++) {
+                for (var j = i + 1; j < arr.length; j++) {
+                    if (arr[i] === arr[j]) {
+                        arr.splice(arr[i], 1);
+                        i++;
+                    }
+                }
+            }
+            return arr;
+        }
+
+11 css引入的方式有那些,link和@import的区别？
+
+内联式，嵌入式，链接式，导入式，
+
+区别：link输入xhtml标签，@import 输入CSS范畴 只能加载CSS，
+      link引入css时，在页面载入的同时加载，@import需要页面网页加载完以后载入。
+      link是Xhtml标签 无兼容问题，@import是css2.1提出的 低版本浏览器存在兼容问题，
+      link支持JS控制DOM改变样式，而@import不支持
+
+12 跨域常见的解决方案
+
+     设置http相应头 Access-Control-Allow-Origin:* 从机制上解决跨域问题
+     jsonp 跨域  但是只支持get
+     iframe 跨域 同源下才行
+
+
+13 写出下面一段语句的执行结果，并简述其中的执行过程；
+ var tt='aa';
+ function test() {
+    alert(tt);
+    var tt='dd';
+    alert(tt);
+ }
+ test();   undefined dd
+
+14 写一个正则判断输入的数据是否为正确的身份号码；
+    var str='410522199604255518';
+    var reg=/^(\d{6})(\d{4})(\d{2})(\d{2})(\d{2})(\d(\d|x))$/;
+    console.log(reg.test(str));
+
+15 scrollWidth和offsetWidth和clientWidth的区别
+clientWidth 指内容可视区的宽度
+offsetWidth 指元素的实际宽度
+scrollWidth 指实际内容的宽度
+
+
+16 简单说明一下 js的作用域，原型，闭包；
+
+闭包：
+     当一个函数执行完成后，其作用域会被收回，如果形成了闭包，执行完成后其作用域就不会被收回；
+     如果某个函数被他的父函数之外的一个变量引用，就会形成闭包；
+     闭包的作用就是保存自己的私有变量，通过接口的方式给外部使用，但外部不能直接访问该变量；
+
+      var f=(function(){
+          var a=0;
+          return function(){
+              ++a;
+              console.log(a);
+          }
+      })();
+      f(); 1
+      f(); 2
+      f(); 3
+
+ 等同于=>
+
+       var s=function () {
+              var a=0;
+              return function () {
+                  ++a;
+                  console.log(a);
+              }
+          };
+          var f=s();
+          f(); 1
+          f(); 2
+          f(); 3
+
+ 如果不是闭包的话=>
+
+    var s=function () {
+        var a=0;
+        a++;
+        console.log(a);
+    }
+
+    s(); 1
+    s(); 1
+
+会在函数执行完成以后 被JS垃圾机制回收
+
+作用域：
+
+      作用域简单来说就是针对变量的，比如我们创建一个A1函数。A1函数里面又包含A2函数。此时就存在3个作用域 当A2查找变量的时候 会先从自身的作用域开始查找 如果没有
+      会往上级作用域A1查找 然后在往全局作用域查找。这样一层一层的查找就形成了作用域链；
+
+
+原型：
+    在JS中一切皆对象。每个对象都有一个__proto__ 该属性指向它的原型 当一个对象在查找一个属性的时候 自身没有会通过__proto__往它的原型查找，直到查找到Object.prototype.__proto__为null 这样就形成了原型链；
+    还有prototype 只有构造函数才会有prototype属性 它的作用就是让类的属性可以被继承；
+
+    function Too() {
+        this.name='ln';
+    }
+    var f=new Too();
+    console.log(f.name); //ln
+    console.log(f.constructor == Too.prototype.constructor); //true  其实f本身是没有constructor属性的 它是继承了Too原型上的constructor;
+    console.log(f.__proto__ === Too.prototype); //true
+    console.info(f.prototype)//undefined ,只有构造函数才有prototype属性
+    console.info(f.__proto__) //指向Too.prototype
+
+
+
+17 一下代码执行结果 ？ 以及原因
+
+  var a = 0;
+
+    function aa(a) {
+        alert(a);
+        a = 3;
+        alert(a);
+    }
+
+    aa();  undefined  3
+    alert(a);   0
+
+18 如何清除浮动?
+
+如果子元素浮动的话，自需要给父元素加个伪类来清楚浮动最佳；
+<div class="b">
+    <p class="a"></p>
+    12312312
+</div>
+
+<style>
+        .b:after{
+            content: '';
+            height: 0;
+            line-height: 0;
+            display: block;
+            visibility: hidden;
+            clear: both;
+        }
+        .a {
+            width: 200px;
+            height: 200px;
+            background: red;
+            float: left;
+        }
+    </style>
+
+19 给你一张静态图 实现一个loading 效果
+
+ animation:loadingRotate 1s infinite linear;
+   @keyframes loadingRotate {
+         from {      // 动画开始状态
+           transform: translate(-50%, -50%) rotate(0);
+         }
+         to {        // 动画结束状态
+           transform: translate(-50%, -50%) rotate(360deg);
+         }
+      };
+
+ 20 使用2rem 在屏幕上渲染为200应如何设置
+
+  ~(function () {
+       var desW=640;
+       var winW=document.documentElement.clientWidth;
+       document.documentElement.style.fontSize=winW/desW*100+"px";
+     })();
+
+ 
