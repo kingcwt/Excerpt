@@ -66,4 +66,6 @@
   #### 1、[概述](./doc/summary.md)
 
   #### 2、[this关键字](./doc/this.md)
+  
+  #### 3 [prototype对象](./doc/prototypeObject.md)
 
